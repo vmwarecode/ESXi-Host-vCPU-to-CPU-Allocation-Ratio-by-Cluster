@@ -1,0 +1,1 @@
+{"374218b5-714e-48a7-af30-a86d58d9716f":{"resourceKinds":[{"resourceKindKey":"HostSystem","adapterKindKey":"VMWARE"}],"modificationTime":1541600267060,"name":"vCPU to Core Allocation Ratio","formula":"${this, metric=summary|number_running_vcpus}/${this, metric=cpu|corecount_provisioned}","description":""}}
